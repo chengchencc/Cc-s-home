@@ -1,0 +1,25 @@
+// @import './dark.scss';
+// @import './light.scss';
+@import './root.scss';
+@import './bootstrap.scss';
+//custom utils
+@import './utils/scroll';
+//引用基本样式
+@import "./layout";
+@import "./gridster";
+@import "./gridsterItem";
+@import "./preview";
+//引用custom
+@import "./custom";
+@import "./designer/designer";
+//test
+// @import "./test";
+
+//overlay
+@import "~@angular/cdk/overlay";
+@include cdk-overlay();
+
+//toast
+@import '~ngx-toastr/toastr.css';
+//ng-select
+// @import "~@ng-select/ng-select/themes/material.theme.css";
