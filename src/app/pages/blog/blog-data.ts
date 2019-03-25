@@ -12,7 +12,7 @@ export const posts:Post[]=[{
     id:1,
     name:"post1",
     desc:"摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要",
-    path:"../../docs/frontend/webpack.md",
+    path:"./docs/frontend/webpack.md",
     date:"2019-03-25 11:24:23",
     image:""
 },{

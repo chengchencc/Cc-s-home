@@ -7,8 +7,8 @@ import { PostComponent } from './pages/blog/post/post.component';
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch: 'full'},
   {path:'home',component:HomeComponent,data: {animation: 'HomePage'} },
-  {path:'blog',component:BlogComponent,data: {animation: 'HomePage'} },
-  {path:"post/:id",component:PostComponent,data: {animation: 'HomePage'}}
+  {path:'blog',component:BlogComponent,data: {animation: 'AboutPage'} },
+  {path:"post/:id",component:PostComponent,data: {animation: 'FilterPage'}}
 ];
 
 @NgModule({
