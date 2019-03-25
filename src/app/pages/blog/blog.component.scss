@@ -1,0 +1,43 @@
+.blog-shell{
+    position: relative;
+}
+.left{
+    position: fixed;
+    width: 300px;
+}
+.content{
+    margin-left: 300px;
+    // margin-right: 300px;
+}
+
+.right{
+    position: fixed;
+    width: 300px;
+}
+
+
+// .blog-shell {
+//   position: absolute;
+//   top: 60px;
+//   left: 0px;
+//   right: 0px;
+//   bottom: 0px;
+
+//   display: flex;
+//   flex-direction: row;
+
+//   .left {
+//     width: 300px;
+//     flex: none;
+//   }
+
+//   .content {
+//     flex: auto;
+//     overflow: auto;
+//   }
+
+//   .right {
+//     width: 200px;
+//     flex: none;
+//   }
+// }
