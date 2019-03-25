@@ -17,7 +17,7 @@ export class BlogComponent implements OnInit {
   }
 
   openPost(item:Post){
-    window.open("../#/post/"+item.id);
+    window.open("./#/post/"+item.id);
   }
 
 }
